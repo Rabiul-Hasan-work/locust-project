@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  locust:
+    build: .
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./:/locust
+    environment:
+      # Optionally, override host if needed
+      - TARGET_HOST=http://your-target-host
