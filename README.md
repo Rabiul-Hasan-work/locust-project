@@ -10,6 +10,10 @@ Locust is an open-source load testing tool that allows you to define user behavi
 
 locust-project/ ├── Dockerfile ├── docker-compose.yml ├── locustfile.py └── README.md
 
+markdown
+Copy
+Edit
+
 - **Dockerfile:** Defines the container environment for running Locust.
 - **docker-compose.yml:** Simplifies running Locust in a Docker container.
 - **locustfile.py:** Contains the Locust test code with sample user behavior.
