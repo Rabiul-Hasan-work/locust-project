@@ -14,4 +14,4 @@ COPY locustfile.py .
 EXPOSE 8089
 
 # Command to run Locust in headless mode (remove --headless to use the UI)
-CMD ["locust", "-f", "firstLocustFile.py", "--host=http://your-target-host", "--web-host=0.0.0.0"]
+CMD ["locust", "-f", "multipleTaskWithWeight.py", "--host=http://your-target-host", "--web-host=0.0.0.0"]
